@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>idea</groupId>
+    <artifactId>Tesseract</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.swinglabs/swingx -->
+        <dependency>
+            <groupId>org.swinglabs</groupId>
+            <artifactId>swingx</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>tesseract</artifactId>
+            <version>3.03-rc1-0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/nu.pattern/opencv -->
+        <dependency>
+            <groupId>nu.pattern</groupId>
+            <artifactId>opencv</artifactId>
+            <version>2.4.9-4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.jai-imageio/jai-imageio-core -->
+        <!-- https://mvnrepository.com/artifact/javax.media/jai_imageio -->
+
+        <dependency>
+            <groupId>org.icepdf.os</groupId>
+            <artifactId>icepdf-core</artifactId>
+            <version>6.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.icepdf.os</groupId>
+            <artifactId>icepdf-viewer</artifactId>
+            <version>6.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.lafa.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+
+    </dependencies>
+</project>
